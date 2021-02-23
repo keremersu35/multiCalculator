@@ -2,7 +2,7 @@
 ## Home Page
 ![Home Page](sssss/main.png)  
 App has 4 main functions:
-  -Calculator
+  -Calculator </br>
   -Converting Binary to Decimal & Decimal to Binary
   -Converting Binary to Hexadecimal & Hexadecimal to Binary
   -Converting Decimal to Hexadecimal & Hexadecimal to Decimal
