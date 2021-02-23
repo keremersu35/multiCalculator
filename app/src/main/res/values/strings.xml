@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MultiCalculator</string>
+    <string name="button1">1</string>
+    <string name="title_activity_binary_decimal">binaryDecimalActivity</string>
+    <string name="tab_text_1">Binary to Decimal</string>
+    <string name="tab_text_2">Decimal to Binary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_binary_hexadecimal">binaryHexadecimalActivity</string>
+    <string name="tab2_text_1">Binary to Hexadecimal</string>
+    <string name="tab2_text_2">Hexadecimal to Binary</string>
+    <string name="title_activity_decimal_hexadecimal">decimalHexadecimalActivity</string>
+    <string name="tab3_text_1">Decimal to Hexadecimal</string>
+    <string name="tab3_text_2">Hexadecimal to Decimal</string>
+</resources>

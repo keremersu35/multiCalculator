@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95EDF2F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/multicalculatorText"
+        android:layout_width="334dp"
+        android:layout_height="212dp"
+        android:gravity="center"
+        android:text="Multi  Calculator"
+        android:textAllCaps="false"
+        android:textColor="#00695C"
+        android:textSize="62sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/calculatorButton"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="calculatorClicked"
+        android:text="Calculator"
+        android:textColor="#00695C"
+        app:backgroundTint="#83C5BE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multicalculatorText"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/binaryDecimalButton"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="binaryDecimalClicked"
+        android:text="Binary - Decimal Converter"
+        android:textColor="#00695C"
+        app:backgroundTint="#83C5BE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculatorButton"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/binaryHexadecimalButton"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="binaryHexaClicked"
+        android:text="Binary - Hexadecimal Converter"
+        android:textColor="#00695C"
+        app:backgroundTint="#83C5BE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/binaryDecimalButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/decimalHexadecimalButton"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:onClick="decimalHexaClicked"
+        android:text="Decimal - Hexadecimal Converter"
+        android:textColor="#00695C"
+        app:backgroundTint="#83C5BE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/binaryHexadecimalButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
