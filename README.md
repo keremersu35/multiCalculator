@@ -1,3 +1,3 @@
 # multiCalculator App
 ## Home Page
-![home page](sss/main.png)
+![home page](ssss/main.png)
