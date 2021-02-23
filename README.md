@@ -26,6 +26,6 @@ Can convert binary to hexadecimal and hexadecimal to binary
 
 ##Decimal - Hexadecimal Converter 
 
-![Decimal-Hexadecimal](sssss/db.png) ![Decimal-Hexadecimal](sssss/hd.png)
+![Decimal-Hexadecimal](sssss/dh.png) ![Decimal-Hexadecimal](sssss/hd.png)
 
 Can convert decimal to hexadecimal and hexadecimal to decimal
