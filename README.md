@@ -1,6 +1,6 @@
 # multiCalculator
 ##Anasayfa
-![Main Page](/ss/main1.png)
+![Main Page](/ss/main(1).png)
   
   
   askhbdakhsdbashdbahsdb  
