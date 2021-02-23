@@ -20,7 +20,7 @@ Can convert binary to decimal and decimal to binary
 
 ##Binary - Hexadecimal Converter 
 
-![Binary-Hexadecimal](sssss/bh.png) ![Binary-Hexadecimal](sssss/hn.png) ![Binary-Hexadecimal](sssss/error.png)
+![Binary-Hexadecimal](sssss/bh.png) ![Binary-Hexadecimal](sssss/hb.png) ![Binary-Hexadecimal](sssss/error.png)
 
 Can convert binary to hexadecimal and hexadecimal to binary
 
